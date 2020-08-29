@@ -67,11 +67,13 @@ public class Autenticacion extends JFrame {
 		contentPane.add(lblPin);
 		
 		textFieldNDCuenta = new JTextField();
+		textFieldNDCuenta.setFont(new Font("Dialog", Font.PLAIN, 14));
 		textFieldNDCuenta.setBounds(335, 217, 297, 37);
 		contentPane.add(textFieldNDCuenta);
 		textFieldNDCuenta.setColumns(10);
 		
 		textFieldPin = new JTextField();
+		textFieldPin.setFont(new Font("Dialog", Font.PLAIN, 14));
 		textFieldPin.setColumns(10);
 		textFieldPin.setBounds(335, 266, 297, 37);
 		contentPane.add(textFieldPin);
