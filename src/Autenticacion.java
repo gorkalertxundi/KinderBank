@@ -89,5 +89,15 @@ public class Autenticacion extends JFrame {
 		JButton btnCrearCuenta = new JButton("Crear Cuenta");
 		btnCrearCuenta.setBounds(492, 326, 140, 25);
 		contentPane.add(btnCrearCuenta);
+		
+		JLabel label = new JLabel("");
+		label.setIcon(new ImageIcon("/home/kinder/Documentos/Proyects/KinderBank/img/padlock.png"));
+		label.setBounds(650, 211, 46, 43);
+		contentPane.add(label);
+		
+		JLabel label_1 = new JLabel("");
+		label_1.setIcon(new ImageIcon("/home/kinder/Documentos/Proyects/KinderBank/img/eye.png"));
+		label_1.setBounds(648, 278, 70, 15);
+		contentPane.add(label_1);
 	}
 }
