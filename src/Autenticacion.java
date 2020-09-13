@@ -50,7 +50,7 @@ public class Autenticacion extends JFrame {
 		contentPane.setLayout(null);
 		
 		JLabel lblLogo = new JLabel("");
-		lblLogo.setIcon(new ImageIcon("/home/kinder/Documentos/Proyects/Sistema de gestion bancaria/img/KinderBank2.png"));
+		lblLogo.setIcon(new ImageIcon("/home/kinder/Documentos/Proyects/KinderBank/img/KinderBank2.png"));
 		lblLogo.setBounds(12, 12, 706, 158);
 		contentPane.add(lblLogo);
 		
